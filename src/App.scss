@@ -1,0 +1,12 @@
+@use './styles/partials/_allPartials' as *;
+
+*,
+*::before,
+*::after,
+html,
+body {
+  box-sizing: border-box;
+  @include setPadding (0, 0, 0, 0);
+  @include setMargin (0, 0, 0, 0);
+  font-family: "Poppins", "Sans Serif";
+}
