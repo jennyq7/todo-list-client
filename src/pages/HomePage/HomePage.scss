@@ -1,0 +1,12 @@
+@use '../../styles/partials/allPartials' as *;
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @include setPadding(1rem, 1rem, 1rem, 1rem);
+
+    &__title {
+        justify-content: center;
+    }
+}
