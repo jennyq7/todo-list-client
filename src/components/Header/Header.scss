@@ -1,0 +1,10 @@
+@use '../../styles/partials/allPartials' as *;
+
+.header {
+    display: flex;
+    justify-content: center;
+    @include setPadding(2rem, 1rem, 2rem, 1rem);
+    font-size: 2rem;
+    background-color: $primary-color;
+    
+}
